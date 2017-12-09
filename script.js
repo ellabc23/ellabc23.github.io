@@ -9,3 +9,6 @@ if ((username == 'Ellabc23' && password == 'unicorn') ||
     window.location.href = 'home.html';
 }
 }
+function home() {
+window.location.href = 'content.html
+}
