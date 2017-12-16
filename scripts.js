@@ -9,3 +9,11 @@ if ((username == 'Ellabc23' && password == 'unicorn') ||
     window.location.href = 'home.html';
 }
 }
+var likeCount = 0;
+
+function like() {
+    var likes = document.getElementById('likes');
+    likeCount += 1;
+    likes.innerHTML = 'Likes: ' + likeCount;
+}
+
