@@ -1,7 +1,7 @@
 function login() {
 var username = document.getElementById('username').value;
 var password =  document.getElementById('password').value;
-if ((username == 'Ellabc23' && password == 'unicorn') ||
+if ((username == 'ellabc23' && password == 'unicorn') ||
     (username == 'TheNovelEnchantress' && password == 'dragon') ||
     (username == 'Katelyn' && password == 'alicorn') ||
     (username == 'Madison' && password == 'phoenix')) {
